@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Samruddhi Gholap's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div class="portfolio-container">
+  <aside class="sidebar">
+    <img src="WhatsApp Image 2025-07-17 at 21.05.52_ac16fecf.jpg" alt="Profile" class="sidebar-profile" />
+    <h1 class="logo">Samruddhi Gholap</h1>
+    <div class="social-icons">
+      <a href="https://github.com/Samruddhi063" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/samruddhi-gholap-0360a9291" target="_blank"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <ul class="menu">
+      <li class="active" data-section="about">👤 About</li>
+      <li data-section="skills">💼 Skills</li>
+      <li data-section="projects">🧪 Projects</li>
+      <li data-section="resume">📄 Resume</li>
+      <li data-section="contact">📬 Contact</li>
+    </ul>
+  </aside>
+
+  <main class="main-content">
+    <!-- 👤 About -->
+    <section id="about" class="content-section active about-bg">
+      <h2 class="center-text">About Me</h2>
+      <div class="about-wrapper">
+        <img src="WhatsApp Image 2025-07-17 at 21.05.52_ac16fecf.jpg" alt="My Photo" class="about-img"/>
+
+        <div class="about-contact-info">
+          <p><i class="fas fa-envelope"></i> Email: <a href="mailto:gholapsamrudddhi7@gmail.com">gholapsamrudddhi7@gmail.com</a></p>
+          <p><i class="fas fa-phone-alt"></i> Phone: <a href="tel:+918010151092">+918010151092</a></p>
+        </div>
+
+        <p class="center-text">"I’m Samruddhi Gholap, an aspiring technologist with a strong academic background in Artificial Intelligence and Data Science. I’m passionate about turning complex problems into smart, efficient solutions, and eager to gain hands-on experience in a forward-thinking environment that values innovation, learning, and growth."</p>
+
+        <div class="about-details">
+          <h3>💡 Why Choose Me?</h3>
+          <ul>
+            <li>✔️ Familiar with Git, GitHub, and responsive design.</li>
+            <li>✔️ Fast learner and eager to adopt new technologies.</li>
+            <li>✔️ Passionate about web development.</li>
+          </ul>
+        </div>
+
+        <div class="about-buttons">
+          <a href="https://github.com/Samruddhi063" class="btn" target="_blank">🌐 GitHub Profile</a>
+          <a href="https://www.linkedin.com/in/samruddhi-gholap-0360a9291" class="btn" target="_blank">🔗 LinkedIn Profile</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 💼 Skills -->
+    <section id="skills" class="content-section skills-bg">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+		<div class="skill-card">Python<span>95%</span></div>
+		<div class="skill-card">Java Core<span>80%</span></div>
+        <div class="skill-card">HTML<span>95%</span></div>
+        <div class="skill-card">CSS<span>90%</span></div>
+        <div class="skill-card">React <span>75%</span></div>
+        <div class="skill-card">Git/GitHub<span>80%</span></div>
+      </div>
+    </section>
+
+    <!-- 🧪 Projects -->
+    <section id="projects" class="content-section projects-bg">
+      <h2>Projects</h2>
+      <div class="projects-row">
+        <div class="project-card">
+          <img src="Professional-portfolio-736x414.webp" alt="Project 1"/>
+          <h3>Portfolio</h3>
+          <p>Personal website using HTML, CSS & JS.</p>
+        </div>
+        <div class="project-card">
+          <img src="download.jpg" alt="Project 2"/>
+          <h3>Movie Recommendation System</h3>
+          <p>This movie recommendation system uses Python to analyze preferences and suggest the perfect film.
+		  It's where data meets storytelling, making every recommendation personal.</p>
+        </div>
+		<div class="project-card">
+		   <img src="shoppers-buying-gadgets-online-discount-260nw-1216923970.webp" alt="Project 2"/>
+		          <h3>Online shopping app</h3>
+		          <p>Engineered a backend system using Core Java to handle product management, user sessions, and order workflows. Implemented JDBC for database operations and ensured secure, modular design for scalability.</p>
+		        </div>
+      </div>
+    </section>
+
+    <!-- 📄 Resume -->
+    <section id="resume" class="content-section resume-bg">
+      <h2>Resume</h2>
+      <blockquote>	  "This resume reflects my journey of learning, growth, and dedication, Every project and skill listed is a step toward my professional goals."</blockquote>
+      <div class="resume-actions">
+        <a href="resume.pdf" target="_blank" class="btn">📄 View Resume</a>
+        <a href="resume.pdf" class="btn" download>⬇️ Download Resume</a>
+      </div>
+    </section>
+
+    <!-- 📬 Contact -->
+    <section id="contact" class="content-section contact-bg">
+      <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:gholapsamrudddhi7@gmail.com">gholapsamrudddhi7@gmail.com</a></p>
+        <p><i class="fas fa-phone-alt"></i> Phone: <a href="tel:+918010151092">+918010151092</a></p>
+      </div>
+      <form class="contact-form">
+        <div class="form-group">
+          <label><i class="fas fa-user"></i> Name</label>
+          <input type="text" required />
+        </div>
+        <div class="form-group">
+          <label><i class="fas fa-envelope"></i> Email</label>
+          <input type="email" required />
+        </div>
+        <div class="form-group">
+          <label><i class="fas fa-comment-dots"></i> Message</label>
+          <textarea required></textarea>
+        </div>
+        <button type="submit" class="btn">Send Message ✈️</button>
+      </form>
+    </section>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
